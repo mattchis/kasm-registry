@@ -1,11 +1,18 @@
 {
+  "friendly_name": "Calibre",
+  "image_src": "calibre.png",
   "description": "Calibre is a powerful and easy to use e-book manager.",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "docker_registry": "https://ghcr.io/",
-  "image_src": "calibre.png",
+  "categories": [
+    "Multimedia"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
   "run_config": {
     "security_opt": [
       "seccomp=unconfined"
@@ -19,10 +26,6 @@
     }
   },
   "exec_config": {},
-  "categories": [
-    "Multimedia"
-  ],
-  "friendly_name": "Calibre",
   "architecture": [
     "amd64",
     "arm64"
@@ -31,10 +34,7 @@
     {
       "version": "1.17.x",
       "image": "lscr.io/linuxserver/calibre:latest",
-      "uncompressed_size_mb": 1950,
-      "available_tags": [
-        "latest"
-      ]
+      "uncompressed_size_mb": 1950
     }
   ]
 }

@@ -6,7 +6,7 @@ const nextConfig = {
   env: {
     name: 'Mattchis - Kasm Technologies',
     description: 'The unofficial store for Kasm supported workspaces.',
-    icon: 'https://mattchis.github.io/kasm-registry/1.0/sp2.png',
+    icon: 'https://mattchis.github.io/kasm-registry/1.0/logo.png',
     listUrl: 'https://mattchis.github.io/kasm-registry/',
     contactUrl: 'https://github.com/mattchis',
   },
