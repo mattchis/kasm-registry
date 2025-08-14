@@ -34,7 +34,10 @@
     {
       "version": "1.17.x",
       "image": "lscr.io/linuxserver/calibre:latest",
-      "uncompressed_size_mb": 1950
+      "uncompressed_size_mb": 1950,
+      "available_tags": [
+        "latest"
+      ]
     }
   ]
 }
